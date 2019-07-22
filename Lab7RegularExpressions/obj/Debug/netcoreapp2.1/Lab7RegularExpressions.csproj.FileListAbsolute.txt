@@ -1,0 +1,11 @@
+C:\Users\myers\source\repos\Week two tutorials, labs, capstone, and assessment\Lab7RegularExpressions\Lab7RegularExpressions\bin\Debug\netcoreapp2.1\Lab7RegularExpressions.deps.json
+C:\Users\myers\source\repos\Week two tutorials, labs, capstone, and assessment\Lab7RegularExpressions\Lab7RegularExpressions\bin\Debug\netcoreapp2.1\Lab7RegularExpressions.runtimeconfig.json
+C:\Users\myers\source\repos\Week two tutorials, labs, capstone, and assessment\Lab7RegularExpressions\Lab7RegularExpressions\bin\Debug\netcoreapp2.1\Lab7RegularExpressions.runtimeconfig.dev.json
+C:\Users\myers\source\repos\Week two tutorials, labs, capstone, and assessment\Lab7RegularExpressions\Lab7RegularExpressions\bin\Debug\netcoreapp2.1\Lab7RegularExpressions.dll
+C:\Users\myers\source\repos\Week two tutorials, labs, capstone, and assessment\Lab7RegularExpressions\Lab7RegularExpressions\bin\Debug\netcoreapp2.1\Lab7RegularExpressions.pdb
+C:\Users\myers\source\repos\Week two tutorials, labs, capstone, and assessment\Lab7RegularExpressions\Lab7RegularExpressions\obj\Debug\netcoreapp2.1\Lab7RegularExpressions.csprojAssemblyReference.cache
+C:\Users\myers\source\repos\Week two tutorials, labs, capstone, and assessment\Lab7RegularExpressions\Lab7RegularExpressions\obj\Debug\netcoreapp2.1\Lab7RegularExpressions.csproj.CoreCompileInputs.cache
+C:\Users\myers\source\repos\Week two tutorials, labs, capstone, and assessment\Lab7RegularExpressions\Lab7RegularExpressions\obj\Debug\netcoreapp2.1\Lab7RegularExpressions.AssemblyInfoInputs.cache
+C:\Users\myers\source\repos\Week two tutorials, labs, capstone, and assessment\Lab7RegularExpressions\Lab7RegularExpressions\obj\Debug\netcoreapp2.1\Lab7RegularExpressions.AssemblyInfo.cs
+C:\Users\myers\source\repos\Week two tutorials, labs, capstone, and assessment\Lab7RegularExpressions\Lab7RegularExpressions\obj\Debug\netcoreapp2.1\Lab7RegularExpressions.dll
+C:\Users\myers\source\repos\Week two tutorials, labs, capstone, and assessment\Lab7RegularExpressions\Lab7RegularExpressions\obj\Debug\netcoreapp2.1\Lab7RegularExpressions.pdb
