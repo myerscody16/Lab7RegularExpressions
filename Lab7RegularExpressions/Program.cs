@@ -8,20 +8,45 @@ namespace Lab7RegularExpressions
         static void Main(string[] args)
         {
             bool namePass = ValidateNames();
-            Console.WriteLine(namePass);
+            if (namePass == true)
+            {
+                Console.WriteLine(namePass);
+            }
+            else
+            {
+                Console.WriteLine("Sorry, name is not valid");
+            }
+            
 
             bool emailPass = ValidateEmails();
-            Console.WriteLine(emailPass);
+            if (namePass == true)
+            {
+                Console.WriteLine(emailPass);
+            }
+            else
+            {
+                Console.WriteLine("Sorry, email is not valid");
+            }
 
             bool phonePass = ValidatePhone();
-            Console.WriteLine(phonePass);
+            if (namePass == true)
+            {
+                Console.WriteLine(phonePass);
+            }
+            else
+            {
+                Console.WriteLine("Sorry, phone number is not valid");
+            }
 
             bool datePass = ValidateDate();
-            Console.WriteLine(datePass);
-
-            bool webAddressPass = ValidateWebSite();
-            Console.WriteLine(webAddressPass);
-
+            if (namePass == true)
+            {
+                Console.WriteLine(datePass);
+            }
+            else
+            {
+                Console.WriteLine("Sorry, date is not valid");
+            }
         }
         public static bool ValidateNames()
         {
@@ -48,16 +73,9 @@ namespace Lab7RegularExpressions
         {
             Console.WriteLine("Please input a date using this format: dd/mm/yyy");
             string date = Console.ReadLine();
-            bool datePass = Regex.IsMatch(date, @"^$");
+            bool datePass = Regex.IsMatch(date, @"^(0?[1-9]|[0-2])/(0?[1-9]|1[0-9]|2[0-9]|3[01])/\d{4}$");
+            //This will include values from 01-12 (includes the values with 0's infront of them.) and d{4} is any number from 0000 to 9999.
             return datePass;
         }
-        public static bool ValidateWebSite()
-        {
-            Console.WriteLine("Please input a web address.");
-            string webAddress = Console.ReadLine();
-            bool webAddressPass = Regex.IsMatch(webAddress, @"^$");
-            return webAddressPass;
-        }
-
     }
 }

@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\myers\\source\\repos\\Week two tutorials, labs, capstone, and assessment\\Lab7RegularExpressions\\Lab7RegularExpressions\\Lab7RegularExpressions.csproj": {}
+    "C:\\Users\\Cody's PC\\Desktop\\Lab7RegularExpressions\\Lab7RegularExpressions\\Lab7RegularExpressions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\myers\\source\\repos\\Week two tutorials, labs, capstone, and assessment\\Lab7RegularExpressions\\Lab7RegularExpressions\\Lab7RegularExpressions.csproj": {
+    "C:\\Users\\Cody's PC\\Desktop\\Lab7RegularExpressions\\Lab7RegularExpressions\\Lab7RegularExpressions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\myers\\source\\repos\\Week two tutorials, labs, capstone, and assessment\\Lab7RegularExpressions\\Lab7RegularExpressions\\Lab7RegularExpressions.csproj",
+        "projectUniqueName": "C:\\Users\\Cody's PC\\Desktop\\Lab7RegularExpressions\\Lab7RegularExpressions\\Lab7RegularExpressions.csproj",
         "projectName": "Lab7RegularExpressions",
-        "projectPath": "C:\\Users\\myers\\source\\repos\\Week two tutorials, labs, capstone, and assessment\\Lab7RegularExpressions\\Lab7RegularExpressions\\Lab7RegularExpressions.csproj",
-        "packagesPath": "C:\\Users\\myers\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\myers\\source\\repos\\Week two tutorials, labs, capstone, and assessment\\Lab7RegularExpressions\\Lab7RegularExpressions\\obj\\",
+        "projectPath": "C:\\Users\\Cody's PC\\Desktop\\Lab7RegularExpressions\\Lab7RegularExpressions\\Lab7RegularExpressions.csproj",
+        "packagesPath": "C:\\Users\\Cody's PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cody's PC\\Desktop\\Lab7RegularExpressions\\Lab7RegularExpressions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\myers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Cody's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
