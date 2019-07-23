@@ -58,14 +58,14 @@ namespace Lab7RegularExpressions
         {
             Console.WriteLine("Please type your email and then press enter");
             string userEmail = Console.ReadLine();
-            bool emailPass = Regex.IsMatch(userEmail, @"^([a-z]{5,30})|([0-9]{1,})@([a-z]{5,10})+[.]+([a-z]{2,3})$");
+            bool emailPass = Regex.IsMatch(userEmail, @"^(.[A-Za-z0-9]{5,30})@([A-Za-z0-9]{5,10})+[.]+([A-Za-z0-9]{2,3})$");
             return emailPass;
         }
         public static bool ValidatePhone()
         {
-            Console.WriteLine("Please input a nine digit phone number with no spaces.");
+            Console.WriteLine("Please input a ten digit phone number with no spaces.");
             string phoneNumber = Console.ReadLine();
-            bool phonePass = Regex.IsMatch(phoneNumber, @"^([1-9]{1,3})+([0-9]{1,3})+([0-9]{1,4})$");
+            bool phonePass = Regex.IsMatch(phoneNumber, @"^([0-9]{1,3})+[-]+([0-9]{1,3})+[-]+([0-9]{1,4})|([0-9]{1,3})([0-9]{1,3})([0-9]{1,4})$");
             return phonePass;
         }
         public static bool ValidateDate()
