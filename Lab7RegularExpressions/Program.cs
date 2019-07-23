@@ -16,10 +16,9 @@ namespace Lab7RegularExpressions
             {
                 Console.WriteLine("Sorry, name is not valid");
             }
-            
 
             bool emailPass = ValidateEmails();
-            if (namePass == true)
+            if (emailPass == true)
             {
                 Console.WriteLine(emailPass);
             }
@@ -29,7 +28,7 @@ namespace Lab7RegularExpressions
             }
 
             bool phonePass = ValidatePhone();
-            if (namePass == true)
+            if (phonePass == true)
             {
                 Console.WriteLine(phonePass);
             }
@@ -39,7 +38,7 @@ namespace Lab7RegularExpressions
             }
 
             bool datePass = ValidateDate();
-            if (namePass == true)
+            if (datePass == true)
             {
                 Console.WriteLine(datePass);
             }
@@ -66,7 +65,7 @@ namespace Lab7RegularExpressions
         {
             Console.WriteLine("Please input a nine digit phone number with no spaces.");
             string phoneNumber = Console.ReadLine();
-            bool phonePass = Regex.IsMatch(phoneNumber, @"^([0-9]{1,3})+([0-9]{1,3})+([0-9]{1,4})$");
+            bool phonePass = Regex.IsMatch(phoneNumber, @"^([1-9]{1,3})+([0-9]{1,3})+([0-9]{1,4})$");
             return phonePass;
         }
         public static bool ValidateDate()
